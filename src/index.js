@@ -7,7 +7,7 @@ ReactDOM.render(
 
    <div>
     <h1>Hello Bro!! Ki obosthah?</h1>
-    <h2>FINE</h2>
+    <h2>{FINE}</h2>
    </div>
   ,document.getElementById('root')
 );
