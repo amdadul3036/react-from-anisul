@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const FINE = "I am fine and you?";
+const APP = "TO DO APP";
 
 ReactDOM.render(
 
    <div>
-    <h1>Hello Bro!! Ki obosthah?</h1>
-    <h2>{FINE}</h2>
+    <h1 style = {{backgroundColor : "blue" , fontSize: "100px" , textAlign: "center"}}>{APP}</h1>
+    <h1>Be Productive!!!</h1>
    </div>
   ,document.getElementById('root')
 );
