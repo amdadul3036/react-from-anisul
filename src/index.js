@@ -1,18 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import CardName from '../src/Components/Card/card';
 const APP = "TO DO APP";
-const CALL = "Call Family";
-const Dummy = "Set up time ts is the time interval immidiately preeciding the active transition of the CLK signal during which the clock input must be maintained at the proper lavel "
-const Date = "09/01/2021";
-
-function CardName(){
-  return <div className = "FullCard">
-      <h1 className = "CallCard">{CALL}</h1>
-      <h3 className = "DummyCard">{Dummy}</h3>
-      <h4 className = "DateCard">{Date}</h4>
-  </div>
-}
 
 ReactDOM.render(
 
