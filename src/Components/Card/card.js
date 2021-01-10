@@ -3,10 +3,11 @@
 // const Date = "09/01/2021";
 
 function CardName(props){
+    const {CallCard , Dummy , Date} = props;
   return <div className = "FullCard">
-      <h1 className = "CallCard">{props.CallCard}</h1>
-      <h3 className = "DummyCard">{props.Dummy}</h3>
-      <h4 className = "DateCard">{props.Date}</h4>
+      <h1 className = "CallCard">{CallCard}</h1>
+      <h3 className = "DummyCard">{Dummy}</h3>
+      <h4 className = "DateCard">{Date}</h4>
   </div>
 }
 
