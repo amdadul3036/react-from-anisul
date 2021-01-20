@@ -11,11 +11,11 @@ function App(){
   //   items.push(<CardName CallCard = {Data[x].title} Dummy = {Data[x].description} Date = "10/01/2021"/>) 
   // }  //In General we do not use for loop ; we use map
 
-  items = Data.map((item) => <CardName CallCard = { item.title } Dummy = {item.description} Date = {item.Date}/> )
+  // items = Data.map((item) => <CardName CallCard = { item.title } Dummy = {item.description} Date = {item.Date}/> )
     
     return <div>
       <h1 style = {{backgroundColor : "blue" , fontSize: "100px" , textAlign: "center"}}>{APP}</h1>
-      {items}
+      Data.map((item) => <CardName CallCard = { item.title } Dummy = {item.description} Date = {item.Date}/> )
     </div>
 }
 
