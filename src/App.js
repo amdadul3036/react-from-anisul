@@ -17,7 +17,7 @@ function App(){
     return <div>
       <h1 style = {{backgroundColor : "blue" , fontSize: "100px" , textAlign: "center"}}>{APP}</h1>
       {Data.map((item) => <CardName CallCard = { item.title } Dummy = {item.description} Date = {item.Date}/> )}
-      <Card2></Card2>
+      <Card2 title = "CARD 2 IS HERE"></Card2>
     </div>
 }
 
