@@ -1,6 +1,7 @@
 import React from 'react';
 import CardName from '../src/Components/Card/card';
 import Data from '../src/JSON DATA/data.json';
+import Card2 from './Components/Class Components/ClassComponents';
 
 const APP = "TO DO APP";
 
@@ -16,6 +17,7 @@ function App(){
     return <div>
       <h1 style = {{backgroundColor : "blue" , fontSize: "100px" , textAlign: "center"}}>{APP}</h1>
       {Data.map((item) => <CardName CallCard = { item.title } Dummy = {item.description} Date = {item.Date}/> )}
+      <Card2></Card2>
     </div>
 }
 
