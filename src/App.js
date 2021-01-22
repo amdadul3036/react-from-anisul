@@ -2,6 +2,7 @@ import React from 'react';
 import CardName from '../src/Components/Card/card';
 import Data from '../src/JSON DATA/data.json';
 import Card2 from './Components/Class Components/ClassComponents';
+import StateLearning from './Components/State Components/State';
 
 const APP = "TO DO APP";
 
@@ -18,6 +19,7 @@ function App(){
       <h1 style = {{backgroundColor : "blue" , fontSize: "100px" , textAlign: "center"}}>{APP}</h1>
       {Data.map((item) => <CardName CallCard = { item.title } Dummy = {item.description} Date = {item.Date}/> )}
       <Card2 title = "CARD 2 IS HERE"></Card2>
+      <StateLearning count = "0"></StateLearning>
     </div>
 }
 
