@@ -13,9 +13,10 @@ class StateLearning extends Component{
 
 
     render(){
+        const {count} = this.state
         return(
             <div>
-                <h2>Count : {this.state.count}</h2>
+                <h2>Count : {count}</h2>
             </div>
         )
     }
