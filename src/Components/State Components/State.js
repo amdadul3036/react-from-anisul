@@ -11,12 +11,18 @@ class StateLearning extends Component{
         }
     }
 
+        handleIncrement = () => {
+            this.setState({
+                count : this.state.count + 1
+            })
+        }
 
     render(){
         const {count} = this.state
         return(
             <div>
-                <h2>Count : {count}</h2>
+                <h1>Count : {count}</h1>
+                <button onClick = {this.handleIncrement}>+</button>
             </div>
         )
     }
