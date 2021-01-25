@@ -27,9 +27,9 @@ class StateLearning extends Component{
         const {count} = this.state
         return(
             <div>
-                <h1>Count : {count}</h1>
-                <button onClick = {this.handleIncrement}>+</button>
-                <button onClick = {this.handleDecrement}>-</button>
+                <h1 style= {{height:"50px",width:"200px",backgroundColor:"#22a4bc",marginLeft:"10px",paddingLeft:"10px"}}>Count : {count}</h1>
+                <button onClick = {this.handleIncrement} style = {{height:"60px",width:"60px",marginTop:"10px",marginLeft:"10px",marginRight:"60px"}}>+</button>
+                <button onClick = {this.handleDecrement} style = {{height:"60px",width:"60px"}}>-</button>
             </div>
         )
     }
